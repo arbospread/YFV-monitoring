@@ -1,0 +1,227 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=125;
+	taxlabels
+	'AF094612|Trinidad79A_788379|mosquito_HaemagogusSpegazzini|Trinidad|1979'
+	'AY572535|Ga2001|human|Gambia|2001'
+	'AY603338|IC99|IvoryCoast|1999'
+	'AY640589|ASIBI|Ghana|1927'
+	'AY968064|Angola71|human|Angola|1971'
+	'AY968065|Uganda48a|human|Uganda|1948'
+	'RJ168|NHP|Divinopolis-MG|2017-01-23'
+	'RJ143|NHP|BeloHorizonte-MG|2017-01-24'
+	'RJ171|NHP|SaoRoqueMinas-MG|2017-02-03'
+	'RJ148|Human|TeofiloOtoni-MG|2017-01-24'
+	'RJ162|NHP|ChapadaGaucha-MG|2017-01-23'
+	'RJ185|Human|SaoJoaoEvangelista-MG|2017-01-22'
+	'RJ150|Human|TeofiloOtoni-MG|2017-01-27'
+	'RJ163|NHP|Sacramento-MG|2017-02-09'
+	'RJ164|NHP|Juatuba-MG|2017-02-14'
+	'RJ157|Human|TeofiloOtoni-MG|2017-02-05'
+	'RJ151|NHP|Itamarandiba-MG|2017-01-13'
+	'RJ153|NHP|FelicianoDosSantos-MG|2017-01-24'
+	'DQ100292|17DD-Brazil_182A|Brazil|1927'
+	'DQ235229|Couma_61b|Ethiopia|1961'
+	'HM582851|TVP11767|AlouattaSeniculus|TrinidadTobago|2009'
+	'JF912179|BeAR378600|HaemagogusSpp|Uruacu_Goias_Brazil|1980'
+	'JF912180|BeH394880|Human|CdoAraguaia_Para_Brazil|1981'
+	'JF912181|BeH413820|Human|Porto_Velho_Rondonia_Brazil|1983'
+	'JF912182|BeH422973|Human|Monte_Alegre_Para_Brazil|1984'
+	'JF912183|BeH423602|Human|SaoDomingosdoCapim_Para_Brazil|1984'
+	'JF912184|BeH463676|Human|Breves_Para_Brazil|1987'
+	'JF912185|BeAR513008|SabethesSp|Sidrolândia_MatoGrossoSul|1992'
+	'JF912186|BeH526722|Human|Arinos_MinasGerais_Brazil|1994'
+	'JF912187|BeH622205|Human|Goias_Goania|2000'
+	'JF912188|BeH622493|human|AltoParaiso_Goais|2000'
+	'JF912189|BeAR646536|HLeucocelaenus|SAMissoes_RioGrandeSul|2001'
+	'JF912190|BeH655417|Human|AltoAlegre_Roraima|2002'
+	'JN620362|Uganda2010|human|Uganda|2010'
+	'JX898868|HD117294|human|Senegal|1995'
+	'JX898869|DakArAmt7|AedesAfricanus|IvoryCoast|1973'
+	'JX898870|ArD121040|AedesFurcifer|Senegal|1996'
+	'JX898871|ArD114896|AedesAegypti|Senegal|1995'
+	'JX898872|ArD114972|AedesAegypti|Senegal|1995'
+	'JX898873|ArD149214|AedesFurcifer|Senegal|2000'
+	'JX898874|ArD149194|AedesTaylori|Senegal|2000'
+	'JX898875|ArD149815|AedesFurcifer|Senegal|2000'
+	'JX898876|ArD156468|AedesFurcifer|Senegal|2001'
+	'JX898877|ArD181464|AedesFurcifer|Senegal|2005'
+	'JX898878|ArD181250|AedesFurcifer|Senegal|2005'
+	'JX898879|ArD181676|AedesTaylori|Senegal|1995'
+	'JX898880|ArD181564|AedesLuteocephalus|Senegal|2005'
+	'JX898881|ArD181439|AedesLuteocephalus|Senegal|2005'
+	'KF907504|88/1999|human|Bolivia|1999'
+	'KM388814|6A|human|Portuguesa_Venezuela|2005'
+	'KM388815|9A|human|Apure_Venezuela|2007'
+	'KM388816|10A|AlouattaSeniculus_monkey|Monagas_Venezuela|2010'
+	'KM388817|2A|Alouattaseniculus|Guarico_Venezuela|2004'
+	'KM388818|8A|Alouattaseniculus|Barinas_Venezuela|2006'
+	'KU921608|CNYF01/2016|human|China|2016-10-03'
+	'KU949599|Shanghai01|human|China|2016-03-06'
+	'KU978763|Ogbomosho|human|Nigeria|1946'
+	'KU978764|M185D160|human|Sudan|1941-06-06'
+	'KU978765|Cachatra|human|Guinea-Bissau|1965-08-23'
+	'KX010994|CIC1|human|China|2016-03-11'
+	'KX010995|CIC2|human|China|2016-03-17'
+	'KX010996|CIC3|human|China|2016-03-18'
+	'KX027336|CIC4|human|China|2016-03-19'
+	'KX268355|CNYF01R/2016|human|China|2016-03-11'
+	'KX982182|Cahama-C17|human|Angola|2016-03-16'
+	'KY495641|BJ01/2016|human|China|2016-03-11'
+	'KY587416|FJYF03/2016|human|China|2016-03-20'
+	'KY873607|CNFY0321/2016|human|China|2016-03-21'
+	'KY885000|ES-504|Alouattaclamitans|DomingosMartins_EspiritoSanto_Brazil|2017-02-20'
+	'KY885001|ES-505|Alouattaclamitans|DomingosMartins_EspiritoSanto_Brazil|2017-02-22'
+	'MF004383|Sudan_M_90-5_TVP_3230|human|Sudan|1990'
+	'MF170971|m6-590|monkey|SaoRoqueDeMinas_MinasGerais_Brazil|2017-01-30'
+	'MH018064|YFV/Monkey/Brazil/2017/M5|Monkey|SantaRitaDeCaldas_MinasGerais_Brazil|2017-02-15'
+	'MH018065|YFV/Monkey/Brazil/2017/M7|Monkey|Delfinopolis_MinasGerais_Brazil|2017-02-14'
+	'MH018066|YFV/Monkey/Brazil/2017/M9|Monkey|OuroFino_MinasGerais_Brazil|2017-02-15'
+	'MH018067|YFV/Monkey/Brazil/2017/M11|Monkey|Caldas_MinasGerais_Brazil|2017-02-13'
+	'MH018068|YFV/Human/Brazil/2017/M16|human|Caratinga_MinasGerais_Brazil|2017-01-09'
+	'MH018069|YFV/Human/Brazil/2017/M17|Ladainha_MinasGerais_Brazil|2017-01-14'
+	'MH018070|YFV/Human/Brazil/2017/M18|human|Itambacuri_MinasGerais_Brazil|2017-01-21'
+	'MH018071|YFV/Human/Brazil/2017/M25|human|NovoCruzeiro_MinasGerais_Brazil|2017-01-25'
+	'MH018072|YFV/Human/Brazil/2017/M26|human|TeofiloOtoni_MinasGerais_Brazil|2017-01-07'
+	'MH018073|YFV/Human/Brazil/2017/M35|human|TeofiloOtoni_MinasGerais_Brazil|2017-01-20'
+	'MH018074|YFV/Human/Brazil/2017/M36|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-14'
+	'MH018075|YFV/Human/Brazil/2017/M43|Human|Pote_MinasGerais_Brazil|2017-01-18'
+	'MH018076|YFV/Human/Brazil/2017/M47|Human|Setubinha_MinasGerais_Brazil|2017-01-19'
+	'MH018077|YFV/Human/Brazil/2017/M48|Human|Ladainha_MinasGerais_Brazil|2017-01-07'
+	'MH018078|YFV/Human/Brazil/2017/M51|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-18'
+	'MH018079|YFV/Human/Brazil/2017/M58|Human|Itambacuri_MinasGerais_Brazil|2017-01-28'
+	'MH018080|YFV/Human/Brazil/2017/M68|Human|Ladainha_MinasGerais_Brazil|2017-01-28'
+	'MH018081|YFV/Monkey/Brazil/2017/M73|Monkey|Aguanil_MinasGerais_Brazil|2017-02-22'
+	'MH018082|YFV/Monkey/Brazil/2017/M78|Monkey|Claraval_MinasGerais_Brazil|2017-02-20'
+	'MH018083|YFV/Monkey/Brazil/2017/M79|AlouttaSpp|Abre_Campo_MinasGerais_Brazil|2017-02-17'
+	'MH018084|YFV/Monkey/Brazil/2017/M83|Monkey|Ladainha_MinasGerais_Brazil|2017-02-09'
+	'MH018085|YFV/Human/Brazil/2017/M94|Human|ImbeDeMinas_MinasGerais_Brazil|2017-01-13'
+	'MH018086|YFV/Human/Brazil/2017/M96|Human|Ladainha_MinasGerais_Brazil|2017-01-19'
+	'MH018087|YFV/Human/Brazil/2017/M98|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-10'
+	'MH018088|YFV/Human/Brazil/2017/M99|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-21'
+	'MH018089|YFV/Human/Brazil/2017/M100|Human|Ladainha_MinasGerais_Brazil|2017-01-02'
+	'MH018090|YFV/Human/Brazil/2017/M105|Human|Caratinga_MinasGerais_Brazil|2017-01-12'
+	'MH018091|YFV/Human/Brazil/2017/M107|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-30'
+	'MH018092|YFV/Human/Brazil/2017/M123|Human|Itambacuri_MinasGerais_Brazil|2017-01-27'
+	'MH018093|YFV/Human/Brazil/2017/M138|Human|SantaBarbaraLeste_MinasGerais_Brazil|2017-01-20'
+	'MH018094|YFV/Human/Brazil/2017/M164|Human|Simonesia_MinasGerais_Brazil|2017-01-30'
+	'MH018095|YFV/Monkey/Brazil/2017/M210|Monkey|Sabinopolis_MinasGerais_Brazil|2017-01-19'
+	'MH018096|YFV/Monkey/Brazil/2017/M211|Monkey|JoseRaydan_MinasGerais_Brazil|2017-01-13'
+	'MH018097|YFV/Monkey/Brazil/2017/M216|monkey|Luisburgo_MinasGerais_Brazil|2017-01-25'
+	'MH018098|YFV/Monkey/Brazil/2017/M217|monkey|ChapadaGaucha_MinasGerais_Brazil|2017-01-25'
+	'MH018099|YFV/Monkey/Brazil/2017/M218|Monkey|Cordeiros_Bahia|2017-03-10'
+	'MH018100|YFV/Human/Brazil/2003/M225|human|MinasGerais_Brazil|2003-03-15'
+	'MH018101|YFV/Human/Brazil/2003/M226|Human|MinasGerais_Brazil|2003-08-15'
+	'MH018102|YFV/Monkey/Brazil/2017/438|Monkey|DomingosMartins_EspiritoSanto|2017-01-31'
+	'MH018103|YFV/Human/Brazil/2017/460|human|NovoCruzeiro_MinasGerais_Brazil|2017-01-30'
+	'MH018104|YFV/Human/Brazil/2017/465|Human|Itambacuri_MinasGerais_Brazil|2017-01-30'
+	'MH018105|YFV/Human/Brazil/2017/480|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-28'
+	'MH018106|YFV/Monkey/Brazil/2017/532|CoronelMurta_MinasGerais_Brazil|2017-01-13'
+	'MH018107|YFV/Human/Brazil/2017/1536|human|Vitoria_EspiritoSanto_Brazil|2017-02-22'
+	'MH018108|YFV/Human/Brazil/2017/1818|Cariacica_EspiritoSanto|2017-03-10'
+	'MH018109|YFV/Monkey/Brazil/2017/2109|monkey|Cariacica_EspiritoSanto|2017-03-08'
+	'MH018110|YFV/Monkey/Brazil/2017/2115|monkey|Cariacica_EspiritoSanto_Brazil|2017-03-09'
+	'MH018111|YFV/Human/Brazil/2017/3919|human|DomingosMartins_EspiritoSanto_Brazil|2017-04-10'
+	'MH018112|YFV/Monkey/Brazil/2017/4278|Monkey|Marica_RioDeJaneiro_Brazil|2017-04-17'
+	'MH018113|YFV/Human/Brazil/2017/4480|human|CasimiroDeAbreu_RioDeJaneiro_Brazil|2017-04-22'
+	'MH018114|YFV/Monkey/Brazil/2017/8|monkey|Itarana_EspiritoSanto_Brazil|2017-01-24'
+	'MH018115|YFV/Monkey/Brazil/2017/11|VendaNovaDoImigrante_EspiritoSanto_Brazil|2017-01-24'
+	'YFU54798|85-82H|IvoryCoast|1982'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((((((((((((('RJ150|Human|TeofiloOtoni-MG|2017-01-27':1.0E-4,'MH018080|YFV/Human/Brazil/2017/M68|Human|Ladainha_MinasGerais_Brazil|2017-01-28':1.8E-4)[&label=0.77]:9.0E-5,((('MH018114|YFV/Monkey/Brazil/2017/8|monkey|Itarana_EspiritoSanto_Brazil|2017-01-24':1.0E-4,('MH018107|YFV/Human/Brazil/2017/1536|human|Vitoria_EspiritoSanto_Brazil|2017-02-22':1.9E-4,'MH018102|YFV/Monkey/Brazil/2017/438|Monkey|DomingosMartins_EspiritoSanto|2017-01-31':2.8E-4)[&label=0.0]:0.0)[&label=0.78]:9.0E-5,('KY885001|ES-505|Alouattaclamitans|DomingosMartins_EspiritoSanto_Brazil|2017-02-22':0.0,'KY885000|ES-504|Alouattaclamitans|DomingosMartins_EspiritoSanto_Brazil|2017-02-20':0.0)[&label=0.93]:2.8E-4)[&label=0.75]:9.0E-5,((('MH018103|YFV/Human/Brazil/2017/460|human|NovoCruzeiro_MinasGerais_Brazil|2017-01-30':5.6E-4,((('MH018113|YFV/Human/Brazil/2017/4480|human|CasimiroDeAbreu_RioDeJaneiro_Brazil|2017-04-22':1.9E-4,(('MH018111|YFV/Human/Brazil/2017/3919|human|DomingosMartins_EspiritoSanto_Brazil|2017-04-10':0.0,'MH018110|YFV/Monkey/Brazil/2017/2115|monkey|Cariacica_EspiritoSanto_Brazil|2017-03-09':2.0E-4)[&label=0.79]:1.0E-4,'MH018108|YFV/Human/Brazil/2017/1818|Cariacica_EspiritoSanto|2017-03-10':2.2E-4)[&label=0.0]:0.0)[&label=0.82]:9.0E-5,'MH018109|YFV/Monkey/Brazil/2017/2109|monkey|Cariacica_EspiritoSanto|2017-03-08':0.0)[&label=0.0]:0.0,'MH018112|YFV/Monkey/Brazil/2017/4278|Monkey|Marica_RioDeJaneiro_Brazil|2017-04-17':4.8E-4)[&label=0.89]:1.9E-4)[&label=0.0]:0.0,('MH018106|YFV/Monkey/Brazil/2017/532|CoronelMurta_MinasGerais_Brazil|2017-01-13':3.8E-4,'MH018104|YFV/Human/Brazil/2017/465|Human|Itambacuri_MinasGerais_Brazil|2017-01-30':2.0E-4)[&label=0.0]:0.0)[&label=0.87]:1.9E-4,'MH018105|YFV/Human/Brazil/2017/480|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-28':2.9E-4)[&label=0.91]:2.8E-4)[&label=0.79]:9.0E-5)[&label=0.0]:0.0,'MH018092|YFV/Human/Brazil/2017/M123|Human|Itambacuri_MinasGerais_Brazil|2017-01-27':0.0)[&label=0.0]:0.0,'MH018094|YFV/Human/Brazil/2017/M164|Human|Simonesia_MinasGerais_Brazil|2017-01-30':2.3E-4)[&label=0.0]:0.0,('RJ162|NHP|ChapadaGaucha-MG|2017-01-23':1.8E-4,'MH018099|YFV/Monkey/Brazil/2017/M218|Monkey|Cordeiros_Bahia|2017-03-10':6.5E-4)[&label=0.87]:1.8E-4)[&label=0.0]:9.0E-5,'MH018090|YFV/Human/Brazil/2017/M105|Human|Caratinga_MinasGerais_Brazil|2017-01-12':2.8E-4)[&label=0.0]:0.0,(('RJ153|NHP|FelicianoDosSantos-MG|2017-01-24':9.0E-5,'RJ185|Human|SaoJoaoEvangelista-MG|2017-01-22':4.7E-4)[&label=0.0]:0.0,('RJ151|NHP|Itamarandiba-MG|2017-01-13':0.0,'MH018095|YFV/Monkey/Brazil/2017/M210|Monkey|Sabinopolis_MinasGerais_Brazil|2017-01-19':1.8E-4)[&label=0.88]:9.0E-5)[&label=0.91]:1.8E-4)[&label=0.83]:9.0E-5,(('RJ157|Human|TeofiloOtoni-MG|2017-02-05':3.0E-4,(('RJ148|Human|TeofiloOtoni-MG|2017-01-24':1.0E-4,'MH018070|YFV/Human/Brazil/2017/M18|human|Itambacuri_MinasGerais_Brazil|2017-01-21':1.0E-4)[&label=0.81]:1.0E-4,('MH018085|YFV/Human/Brazil/2017/M94|Human|ImbeDeMinas_MinasGerais_Brazil|2017-01-13':1.4E-4,'MH018077|YFV/Human/Brazil/2017/M48|Human|Ladainha_MinasGerais_Brazil|2017-01-07':2.9E-4)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.76]:1.4E-4,'MH018068|YFV/Human/Brazil/2017/M16|human|Caratinga_MinasGerais_Brazil|2017-01-09':1.9E-4)[&label=0.0]:0.0)[&label=0.0]:0.0,((('MH018096|YFV/Monkey/Brazil/2017/M211|Monkey|JoseRaydan_MinasGerais_Brazil|2017-01-13':0.0,'MH018083|YFV/Monkey/Brazil/2017/M79|AlouttaSpp|Abre_Campo_MinasGerais_Brazil|2017-02-17':1.8E-4)[&label=0.0]:0.0,'MH018079|YFV/Human/Brazil/2017/M58|Human|Itambacuri_MinasGerais_Brazil|2017-01-28':1.8E-4)[&label=0.0]:5.0E-5,'MH018076|YFV/Human/Brazil/2017/M47|Human|Setubinha_MinasGerais_Brazil|2017-01-19':9.0E-5)[&label=0.0]:4.0E-5)[&label=0.0]:0.0,('MH018091|YFV/Human/Brazil/2017/M107|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-30':2.8E-4,'MH018078|YFV/Human/Brazil/2017/M51|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-18':1.8E-4)[&label=0.76]:9.0E-5)[&label=0.0]:0.0,'RJ143|NHP|BeloHorizonte-MG|2017-01-24':1.7E-4)[&label=0.0]:0.0,('RJ164|NHP|Juatuba-MG|2017-02-14':0.0016,((((('RJ163|NHP|Sacramento-MG|2017-02-09':2.8E-4,('MH018115|YFV/Monkey/Brazil/2017/11|VendaNovaDoImigrante_EspiritoSanto_Brazil|2017-01-24':1.8E-4,'MF170971|m6-590|monkey|SaoRoqueDeMinas_MinasGerais_Brazil|2017-01-30':1.0E-4)[&label=0.43]:1.3E-4)[&label=0.76]:1.6E-4,'MH018082|YFV/Monkey/Brazil/2017/M78|Monkey|Claraval_MinasGerais_Brazil|2017-02-20':1.9E-4)[&label=0.0]:0.0,(('MH018067|YFV/Monkey/Brazil/2017/M11|Monkey|Caldas_MinasGerais_Brazil|2017-02-13':9.0E-5,'MH018066|YFV/Monkey/Brazil/2017/M9|Monkey|OuroFino_MinasGerais_Brazil|2017-02-15':0.0)[&label=0.0]:0.0,'MH018064|YFV/Monkey/Brazil/2017/M5|Monkey|SantaRitaDeCaldas_MinasGerais_Brazil|2017-02-15':4.6E-4)[&label=0.96]:4.5E-4)[&label=0.0]:0.0,'MH018065|YFV/Monkey/Brazil/2017/M7|Monkey|Delfinopolis_MinasGerais_Brazil|2017-02-14':0.0)[&label=0.0]:0.0,'RJ171|NHP|SaoRoqueMinas-MG|2017-02-03':1.2E-4)[&label=0.97]:0.0010)[&label=0.96]:5.5E-4)[&label=0.95]:3.8E-4,'RJ168|NHP|Divinopolis-MG|2017-01-23':2.1E-4)[&label=0.0]:0.0,((('MH018089|YFV/Human/Brazil/2017/M100|Human|Ladainha_MinasGerais_Brazil|2017-01-02':3.7E-4,((('MH018075|YFV/Human/Brazil/2017/M43|Human|Pote_MinasGerais_Brazil|2017-01-18':6.0E-4,('MH018097|YFV/Monkey/Brazil/2017/M216|monkey|Luisburgo_MinasGerais_Brazil|2017-01-25':2.0E-4,'MH018093|YFV/Human/Brazil/2017/M138|Human|SantaBarbaraLeste_MinasGerais_Brazil|2017-01-20':2.1E-4)[&label=0.0]:0.0)[&label=0.94]:4.3E-4,((('MH018086|YFV/Human/Brazil/2017/M96|Human|Ladainha_MinasGerais_Brazil|2017-01-19':4.6E-4,'MH018072|YFV/Human/Brazil/2017/M26|human|TeofiloOtoni_MinasGerais_Brazil|2017-01-07':0.0)[&label=0.0]:0.0,'MH018088|YFV/Human/Brazil/2017/M99|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-21':3.7E-4)[&label=0.0]:0.0,'MH018087|YFV/Human/Brazil/2017/M98|Human|TeofiloOtoni_MinasGerais_Brazil|2017-01-10':0.0)[&label=0.8]:1.1E-4)[&label=0.0]:0.0,'MH018074|YFV/Human/Brazil/2017/M36|Human|NovoCruzeiro_MinasGerais_Brazil|2017-01-14':2.9E-4)[&label=0.0]:3.0E-5)[&label=0.0]:1.1E-4,'MH018084|YFV/Monkey/Brazil/2017/M83|Monkey|Ladainha_MinasGerais_Brazil|2017-02-09':3.7E-4)[&label=0.0]:1.1E-4,'MH018073|YFV/Human/Brazil/2017/M35|human|TeofiloOtoni_MinasGerais_Brazil|2017-01-20':2.9E-4)[&label=0.0]:1.1E-4)[&label=0.0]:4.9E-4,('MH018098|YFV/Monkey/Brazil/2017/M217|monkey|ChapadaGaucha_MinasGerais_Brazil|2017-01-25':6.3E-4,('MH018069|YFV/Human/Brazil/2017/M17|Ladainha_MinasGerais_Brazil|2017-01-14':5.7E-4,'MH018081|YFV/Monkey/Brazil/2017/M73|Monkey|Aguanil_MinasGerais_Brazil|2017-02-22':5.9E-4)[&label=0.66]:4.6E-4)[&label=0.0]:0.0)[&label=0.71]:8.2E-4,'MH018071|YFV/Human/Brazil/2017/M25|human|NovoCruzeiro_MinasGerais_Brazil|2017-01-25':0.0)[&label=1.0,!collapse={"collapsed",0.00793000000000002}]:0.00613,((('KM388818|8A|Alouattaseniculus|Barinas_Venezuela|2006':0.00167,'KM388815|9A|human|Apure_Venezuela|2007':0.00157)[&label=0.92]:3.7E-4,'KM388814|6A|human|Portuguesa_Venezuela|2005':2.8E-4)[&label=1.0]:0.00419,('KM388817|2A|Alouattaseniculus|Guarico_Venezuela|2004':8.3E-4,'KM388816|10A|AlouattaSeniculus_monkey|Monagas_Venezuela|2010':0.00148)[&label=1.0]:0.00206)[&label=0.85]:2.8E-4)[&label=0.96]:8.3E-4,'JF912190|BeH655417|Human|AltoAlegre_Roraima|2002':0.00438)[&label=1.0]:0.00605,(((('MH018101|YFV/Human/Brazil/2003/M226|Human|MinasGerais_Brazil|2003-08-15':6.5E-4,'MH018100|YFV/Human/Brazil/2003/M225|human|MinasGerais_Brazil|2003-03-15':3.7E-4)[&label=1.0]:0.00148,'JF912188|BeH622493|human|AltoParaiso_Goais|2000':1.8E-4)[&label=0.73]:9.0E-5,'JF912187|BeH622205|Human|Goias_Goania|2000':0.00101)[&label=0.98]:0.00118,'JF912189|BeAR646536|HLeucocelaenus|SAMissoes_RioGrandeSul|2001':0.00151)[&label=1.0]:0.00731)[&label=0.65]:8.6E-4,'HM582851|TVP11767|AlouattaSeniculus|TrinidadTobago|2009':0.01217)[&label=1.0]:0.00656,('JF912185|BeAR513008|SabethesSp|Sidrolândia_MatoGrossoSul|1992':0.00653,'JF912182|BeH422973|Human|Monte_Alegre_Para_Brazil|1984':0.00358)[&label=1.0]:0.00965)[&label=1.0]:0.00221,('JF912183|BeH423602|Human|SaoDomingosdoCapim_Para_Brazil|1984':0.0046,(('JF912184|BeH463676|Human|Breves_Para_Brazil|1987':0.00289,'JF912179|BeAR378600|HaemagogusSpp|Uruacu_Goias_Brazil|1980':5.3E-4)[&label=1.0]:0.00352,'JF912186|BeH526722|Human|Arinos_MinasGerais_Brazil|1994':0.00673)[&label=0.9]:8.4E-4)[&label=1.0]:0.01066)[&label=0.19]:0.00256,'JF912180|BeH394880|Human|CdoAraguaia_Para_Brazil|1981':0.00897)[&label=1.0]:0.03817,('KF907504|88/1999|human|Bolivia|1999':0.02605,'JF912181|BeH413820|Human|Porto_Velho_Rondonia_Brazil|1983':0.02157)[&label=1.0]:0.04146)[&label=1.0]:0.04913,((('YFU54798|85-82H|IvoryCoast|1982':0.01835,'KU978763|Ogbomosho|human|Nigeria|1946':0.01105)[&label=1.0]:0.01681,'JX898869|DakArAmt7|AedesAfricanus|IvoryCoast|1973':0.0282)[&label=1.0]:0.02261,((('KU978765|Cachatra|human|Guinea-Bissau|1965-08-23':0.01129,(('AY572535|Ga2001|human|Gambia|2001':1.7E-4,(('JX898874|ArD149194|AedesTaylori|Senegal|2000':2.8E-4,'JX898875|ArD149815|AedesFurcifer|Senegal|2000':0.00138)[&label=0.89]:1.8E-4,'JX898873|ArD149214|AedesFurcifer|Senegal|2000':1.8E-4)[&label=0.88]:2.0E-4)[&label=1.0]:0.00981,(('JX898870|ArD121040|AedesFurcifer|Senegal|1996':9.2E-4,'JX898868|HD117294|human|Senegal|1995':0.00139)[&label=1.0]:0.00251,'AY603338|IC99|IvoryCoast|1999':0.0033)[&label=1.0]:0.00632)[&label=1.0]:0.00595)[&label=0.94]:0.00138,(('JX898881|ArD181439|AedesLuteocephalus|Senegal|2005':0.0,((('JX898880|ArD181564|AedesLuteocephalus|Senegal|2005':0.0,'JX898877|ArD181464|AedesFurcifer|Senegal|2005':0.0)[&label=0.0]:0.0,'JX898878|ArD181250|AedesFurcifer|Senegal|2005':0.0)[&label=0.0]:0.0,'JX898879|ArD181676|AedesTaylori|Senegal|1995':0.0)[&label=0.0]:0.0)[&label=1.0]:0.00317,'JX898876|ArD156468|AedesFurcifer|Senegal|2001':0.0010)[&label=1.0]:0.01218)[&label=1.0]:0.00701,((('KU978764|M185D160|human|Sudan|1941-06-06':9.0E-5,'DQ100292|17DD-Brazil_182A|Brazil|1927':0.00482)[&label=0.0]:0.0,'AY640589|ASIBI|Ghana|1927':6.5E-4)[&label=0.94]:7.5E-4,(('JX898872|ArD114972|AedesAegypti|Senegal|1995':0.0,'JX898871|ArD114896|AedesAegypti|Senegal|1995':0.0)[&label=0.99]:0.00157,'AF094612|Trinidad79A_788379|mosquito_HaemagogusSpegazzini|Trinidad|1979':0.01223)[&label=1.0]:0.00355)[&label=1.0]:0.01259)[&label=1.0]:0.03406)[&label=1.0]:0.05676):0.11452,(('AY968064|Angola71|human|Angola|1971':0.00457,('KX010994|CIC1|human|China|2016-03-11':0.0,(((((('KY873607|CNFY0321/2016|human|China|2016-03-21':2.8E-4,'KY587416|FJYF03/2016|human|China|2016-03-20':9.0E-5)[&label=0.98]:4.6E-4,((('KY495641|BJ01/2016|human|China|2016-03-11':0.0,'KX268355|CNYF01R/2016|human|China|2016-03-11':1.8E-4)[&label=0.0]:0.0,'KU921608|CNYF01/2016|human|China|2016-10-03':9.2E-4)[&label=0.9]:1.8E-4,'KU949599|Shanghai01|human|China|2016-03-06':3.7E-4)[&label=0.0]:0.0)[&label=0.0]:0.0,'KX010995|CIC2|human|China|2016-03-17':4.6E-4)[&label=0.0]:0.0,'KX010996|CIC3|human|China|2016-03-18':4.6E-4)[&label=0.0]:0.0,'KX982182|Cahama-C17|human|Angola|2016-03-16':2.9E-4)[&label=0.82]:1.7E-4,'KX027336|CIC4|human|China|2016-03-19':0.00112)[&label=1.0]:0.00832)[&label=0.34]:0.00317)[&label=1.0]:0.10042,('AY968065|Uganda48a|human|Uganda|1948':0.03608,('JN620362|Uganda2010|human|Uganda|2010':0.02758,('MF004383|Sudan_M_90-5_TVP_3230|human|Sudan|1990':0.00417,'DQ235229|Couma_61b|Ethiopia|1961':0.00875)[&label=1.0]:0.016)[&label=1.0]:0.02336)[&label=1.0]:0.07342)[&!rotate=true]:0.11474)[&label=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
