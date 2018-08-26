@@ -1,0 +1,142 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=65;
+		Taxlabels
+			NC|ES504|NHPrimate|DomingosMartins|EspiritoSanto|20-02-2017
+			NC|ES505|NHPrimate|DomingosMartins|EspiritoSanto|22-02-2017
+			FioRJ|Library9YIBRA_M218_2176|Primate|Bahia|10-03-2017
+			FioRJ|460|Human|MinasGerais_NovoCruzeiro|30-01-2017
+			FioRJ|1818|Human|EspiritoSanto_Cariacia|10-03-2017
+			FioRJ|2115|Monkey|EspiritoSanto_Cariacia|09-03-2017
+			FioRJ|3919|Human|EspiritoSanto_DomingosMartins|10-04-2017
+			FioRJ|438|Monkey|Espirito_Santo_DomingosMartins|31-01-2017
+			FioRJ|465|Human|MinasGerais_Itambacuri|30-01-2017
+			FioRJ|480|Human|MinasGerais_TeofiloOtoni|28-01-2017
+			FioRJ|532|Monkey|MinasGerais_CoronelMurta|13-01-2017
+			FioRJ|1536|Human|EspiritoSanto_Vitoria|22-02-2017
+			FioRJ|2109|Monkey|EspiritoSanto_Cariacica|08-03-2017
+			FioRJ|4278|Monkey|RioJaneiro_Marica|17-04-2017
+			FioRJ|4480|Human|RioJaneiro_CasimirodeAbreu|22-04-2017
+			IAL_11|Primate|EspiritoSanto_VendaNovadoImigrante|24-01-2017
+			IAL_8|Primate|EspiritoSanto_Itarana|24-01-2017
+			M105_libraryYIBRA8|Human|MinasGerais_PiedadeCaratinga|12-01-2017
+			M107_library4|Human|MinasGerais|NovoCruzeiro|30-01-2017
+			M11_library4|Primate_Cebidae|MinasGerais_Caldas|13-02-2017
+			M123_libraryYIBRA8|Human|MinasGerais_Itambaquri|27-01-2017
+			M164_libraryYIBRA8|Human|MinasGerais_Simonesia|30-01-2017
+			M16_libraryYIBRA8|Human|MinasGerais_Caratinga|09-01-2017
+			M18_library2|Human|MinasGerais_Itambacuri|21-01-2017
+			M210_libraryX|Primate_Callithrix_geoffroyi|MinasGerais_ValedoRioDoce|19-01-2017
+			M211_libraryX|Primate_AlouattaFuscaClamitans|MinasGerais_ValedoRioDoce|13-01-2017
+			M25_library1|Human|MinasGerais_NovoCruzeiro|25-01-2017
+			M48_library4|Human|MinasGerais_Ladainha|07-01-2017
+			M51_libraryYIBRA8|Human|MinasGerais_NovoCruzeiro|18-01-2017
+			M58_libraryYIBRA8|Human|MinasGerais_Itambaquri|28-01-2017
+			M68_libraryYIBRA8|Human|MinasGerais_Ladainha|28-01-2017
+			M78_library4|Primate_CallithrixPenicillata|MinasGerais_Claraval|20-02-2017
+			M94_library5|Human|MinasGerais_|ImbeDeMinas|13-01-2017
+			M79_library3|Primate_AllouataGuaribaClamitans|MinasGerais_AbreCampo|17-02-2017
+			M47_libraryY|Human|MinasGerais|Setubinha|19-01-2017
+			M9_library4|Monkey|MinasGerais_OuroFino|15-02-2017
+			M7_library2|Primate_Cebidae|MinasGerais_Delfinopolis|14-02-2017
+			M43_libraryY|Human|MinasGerais_Pote|18-01-2017
+			M83_library3|Primate_Callitrix|MinasGerais_Ladainha|09-02-2017
+			M5_library2|Primate_AllouataGuaribaClamitans|MinasGerais_SantaRitaDeCaldas|15-02-2017
+			M216_libraryX|Primate_CallicebusSp|MinasGerais_ZonaDaMata|25-01-2017
+			M217_libraryX|Primate_CebidaeSpp|MinaisGerais_NorteDeMinas|25-01-2017
+			M138_libraryX|Human|MinasGerais_SantaBarbaradoLeste|20-01-2017
+			M17_library1|Human|MinasGerais_Ladainha|14-01-2017
+			M100_library6|Human|MinasGerais|Ladainha|02-01-2017
+			M26_library5and6|Human|MinasGerais_SaoCaetanoDoSul|07-01-2017
+			M98_library6|Human|MinasGerais|TeofiloOtoni|10-01-2017
+			M99_library6|Human|MinasGerais|TeofiloOtoni|21-01-2017
+			M35_library3|Human|MinasGerais_TeofiloOtoni|20-01-2017
+			M36_library3|MinasGerais|NovoCruzeiro|14-01-2017
+			M73_library5|PrimateCebidae|MinasGerais_Aguanil|22-02-2017
+			M96_library5and6|Human|MinasGerais|Ladainha|19-01-2017
+			RJ168|NHP|Divinopolis-MG|23-01-2017
+			RJ143|NHP|BeloHorizonte-MG|24-01-2017
+			RJ171|NHP|SaoRoqueMinas-MG|03-02-2017
+			RJ148|Human|TeofiloOtoni-MG|24-01-2017
+			RJ162|NHP|ChapadaGaucha-MG|23-01-2017
+			RJ185|Human|SaoJoaoEvangelista-MG|22-01-2017
+			RJ150|Human|TeofiloOtoni-MG|27-01-2017
+			RJ163|NHP|Sacramento-MG|09-02-2017
+			RJ164|NHP|Juatuba-MG|14-02-2017
+			RJ157|Human|TeofiloOtoni-MG|05-02-2017
+			RJ151|NHP|Itamarandiba-MG|13-01-2017
+			RJ153|NHP|FelicianoDosSantos-MG|24-01-2017
+			MF170971|Monkey|MinasGerais_SaoRoqueDeMinas|NA|30-01-2017
+			;
+End;
+Begin trees;
+	Translate
+			1 NC|ES504|NHPrimate|DomingosMartins|EspiritoSanto|20-02-2017,
+			2 NC|ES505|NHPrimate|DomingosMartins|EspiritoSanto|22-02-2017,
+			3 FioRJ|Library9YIBRA_M218_2176|Primate|Bahia|10-03-2017,
+			4 FioRJ|460|Human|MinasGerais_NovoCruzeiro|30-01-2017,
+			5 FioRJ|1818|Human|EspiritoSanto_Cariacia|10-03-2017,
+			6 FioRJ|2115|Monkey|EspiritoSanto_Cariacia|09-03-2017,
+			7 FioRJ|3919|Human|EspiritoSanto_DomingosMartins|10-04-2017,
+			8 FioRJ|438|Monkey|Espirito_Santo_DomingosMartins|31-01-2017,
+			9 FioRJ|465|Human|MinasGerais_Itambacuri|30-01-2017,
+			10 FioRJ|480|Human|MinasGerais_TeofiloOtoni|28-01-2017,
+			11 FioRJ|532|Monkey|MinasGerais_CoronelMurta|13-01-2017,
+			12 FioRJ|1536|Human|EspiritoSanto_Vitoria|22-02-2017,
+			13 FioRJ|2109|Monkey|EspiritoSanto_Cariacica|08-03-2017,
+			14 FioRJ|4278|Monkey|RioJaneiro_Marica|17-04-2017,
+			15 FioRJ|4480|Human|RioJaneiro_CasimirodeAbreu|22-04-2017,
+			16 IAL_11|Primate|EspiritoSanto_VendaNovadoImigrante|24-01-2017,
+			17 IAL_8|Primate|EspiritoSanto_Itarana|24-01-2017,
+			18 M105_libraryYIBRA8|Human|MinasGerais_PiedadeCaratinga|12-01-2017,
+			19 M107_library4|Human|MinasGerais|NovoCruzeiro|30-01-2017,
+			20 M11_library4|Primate_Cebidae|MinasGerais_Caldas|13-02-2017,
+			21 M123_libraryYIBRA8|Human|MinasGerais_Itambaquri|27-01-2017,
+			22 M164_libraryYIBRA8|Human|MinasGerais_Simonesia|30-01-2017,
+			23 M16_libraryYIBRA8|Human|MinasGerais_Caratinga|09-01-2017,
+			24 M18_library2|Human|MinasGerais_Itambacuri|21-01-2017,
+			25 M210_libraryX|Primate_Callithrix_geoffroyi|MinasGerais_ValedoRioDoce|19-01-2017,
+			26 M211_libraryX|Primate_AlouattaFuscaClamitans|MinasGerais_ValedoRioDoce|13-01-2017,
+			27 M25_library1|Human|MinasGerais_NovoCruzeiro|25-01-2017,
+			28 M48_library4|Human|MinasGerais_Ladainha|07-01-2017,
+			29 M51_libraryYIBRA8|Human|MinasGerais_NovoCruzeiro|18-01-2017,
+			30 M58_libraryYIBRA8|Human|MinasGerais_Itambaquri|28-01-2017,
+			31 M68_libraryYIBRA8|Human|MinasGerais_Ladainha|28-01-2017,
+			32 M78_library4|Primate_CallithrixPenicillata|MinasGerais_Claraval|20-02-2017,
+			33 M94_library5|Human|MinasGerais_|ImbeDeMinas|13-01-2017,
+			34 M79_library3|Primate_AllouataGuaribaClamitans|MinasGerais_AbreCampo|17-02-2017,
+			35 M47_libraryY|Human|MinasGerais|Setubinha|19-01-2017,
+			36 M9_library4|Monkey|MinasGerais_OuroFino|15-02-2017,
+			37 M7_library2|Primate_Cebidae|MinasGerais_Delfinopolis|14-02-2017,
+			38 M43_libraryY|Human|MinasGerais_Pote|18-01-2017,
+			39 M83_library3|Primate_Callitrix|MinasGerais_Ladainha|09-02-2017,
+			40 M5_library2|Primate_AllouataGuaribaClamitans|MinasGerais_SantaRitaDeCaldas|15-02-2017,
+			41 M216_libraryX|Primate_CallicebusSp|MinasGerais_ZonaDaMata|25-01-2017,
+			42 M217_libraryX|Primate_CebidaeSpp|MinaisGerais_NorteDeMinas|25-01-2017,
+			43 M138_libraryX|Human|MinasGerais_SantaBarbaradoLeste|20-01-2017,
+			44 M17_library1|Human|MinasGerais_Ladainha|14-01-2017,
+			45 M100_library6|Human|MinasGerais|Ladainha|02-01-2017,
+			46 M26_library5and6|Human|MinasGerais_SaoCaetanoDoSul|07-01-2017,
+			47 M98_library6|Human|MinasGerais|TeofiloOtoni|10-01-2017,
+			48 M99_library6|Human|MinasGerais|TeofiloOtoni|21-01-2017,
+			49 M35_library3|Human|MinasGerais_TeofiloOtoni|20-01-2017,
+			50 M36_library3|MinasGerais|NovoCruzeiro|14-01-2017,
+			51 M73_library5|PrimateCebidae|MinasGerais_Aguanil|22-02-2017,
+			52 M96_library5and6|Human|MinasGerais|Ladainha|19-01-2017,
+			53 RJ168|NHP|Divinopolis-MG|23-01-2017,
+			54 RJ143|NHP|BeloHorizonte-MG|24-01-2017,
+			55 RJ171|NHP|SaoRoqueMinas-MG|03-02-2017,
+			56 RJ148|Human|TeofiloOtoni-MG|24-01-2017,
+			57 RJ162|NHP|ChapadaGaucha-MG|23-01-2017,
+			58 RJ185|Human|SaoJoaoEvangelista-MG|22-01-2017,
+			59 RJ150|Human|TeofiloOtoni-MG|27-01-2017,
+			60 RJ163|NHP|Sacramento-MG|09-02-2017,
+			61 RJ164|NHP|Juatuba-MG|14-02-2017,
+			62 RJ157|Human|TeofiloOtoni-MG|05-02-2017,
+			63 RJ151|NHP|Itamarandiba-MG|13-01-2017,
+			64 RJ153|NHP|FelicianoDosSantos-MG|24-01-2017,
+			65 MF170971|Monkey|MinasGerais_SaoRoqueDeMinas|NA|30-01-2017
+			;
+tree STATE_200000000 = ((((((((((((((((((((((1[&type="NHP"]:0.005006246953078081,2[&type="NHP"]:0.010485699007792865)112[&type="NHP"]:0.03984727773205016)266[&type="Human"]:0.01413581732959579)267[&type="NHP"]:0.03946670196559818,((12[&type="Human"]:0.05160205668207063)145[&type="NHP"]:0.040189879524688055,17[&type="NHP"]:0.012339881412257447)86[&type="NHP"]:0.012143559828278305)104[&type="NHP"]:0.001452873081165984,54[&type="NHP"]:0.025936314321701737)95[&type="NHP"]:0.03279408286962554,((((((((4[&type="Human"]:0.029096449404146074)136[&type="NHP"]:1.3454164007137281E-4,((8[&type="NHP"]:0.024007228959172844)139[&type="Human"]:0.0067676858625464464)140[&type="NHP"]:0.0011958022498555487)123[&type="NHP"]:0.012319347462161456,(((9[&type="Human"]:0.0297026669249576)141[&type="NHP"]:0.0020773224878763985)142[&type="Human"]:4.924143727923491E-4)143[&type="NHP"]:0.009277934720752556)122[&type="NHP"]:0.0019874958191156145,((((((((((5[&type="Human"]:0.018546754565160195)137[&type="NHP"]:0.008211912143857164,(((((((15[&type="Human"]:0.058033381548900566)150[&type="NHP"]:0.02262569783557928)151[&type="Human"]:0.025222516703502687)152[&type="NHP"]:9.617275144092607E-4)153[&type="Human"]:0.002499117166533421)154[&type="NHP"]:0.01969098649256329)155[&type="Human"]:0.012736330567514692)156[&type="NHP"]:0.0027971280579736357)94[&type="NHP"]:0.011180797096322664,(6[&type="NHP"]:0.01870694502060674,((((7[&type="Human"]:0.07044041326660284)138[&type="NHP"]:3.3665207544997244E-5,((14[&type="NHP"]:0.014541867870918435)148[&type="Human"]:0.012461691779743898)149[&type="NHP"]:0.06264860101544201)106[&type="NHP"]:0.023483783486664148)260[&type="Human"]:0.0018473009457114775)261[&type="NHP"]:0.010573014990656687)85[&type="NHP"]:0.01649279275737589)66[&type="NHP"]:0.002642687831385826)232[&type="Human"]:0.032587617383690703)233[&type="NHP"]:0.0034138641522431235,((13[&type="NHP"]:0.02003554121689677)146[&type="Human"]:0.015056102326193116)147[&type="NHP"]:0.03601253757485501)121[&type="NHP"]:6.616902427536708E-4)270[&type="Human"]:0.0055591748759956094)271[&type="NHP"]:0.005966411844217201)272[&type="Human"]:0.055831509083933695)273[&type="NHP"]:0.00578473017446457)96[&type="NHP"]:0.010395074307353591,11[&type="NHP"]:0.007357566167090324)97[&type="NHP"]:0.004635883800919449,(10[&type="Human"]:0.04838029723613968)144[&type="NHP"]:0.004709043142913094)72[&type="NHP"]:0.001785126660520553)240[&type="Human"]:0.0033071969141947877)241[&type="NHP"]:0.011507637347216104)105[&type="NHP"]:0.007947148314824015,((57[&type="NHP"]:3.421731608830858E-4)213[&type="Human"]:0.045282402720541515)214[&type="NHP"]:0.0183132435973693)109[&type="NHP"]:7.700717509177002E-4,((((((((((((3[&type="NHP"]:0.005662077144224592)130[&type="Human"]:0.016646312588468937)131[&type="NHP"]:0.005272896887138279)132[&type="Human"]:0.03469375944128178)133[&type="NHP"]:0.006606441440848376)134[&type="Human"]:0.06700431786945618)135[&type="NHP"]:0.0051972588488986005,(59[&type="Human"]:0.018697741949961877)216[&type="NHP"]:0.007316829119752788)71[&type="NHP"]:0.001892046953566373,(31[&type="Human"]:0.02814852489431202)173[&type="NHP"]:0.0024978191563264085)92[&type="NHP"]:9.296137737264676E-4)252[&type="Human"]:0.005144684608702321)253[&type="NHP"]:0.00917278039313818)254[&type="Human"]:0.03155511419204593)255[&type="NHP"]:9.579843484746053E-4)119[&type="NHP"]:0.011530807513919494,(((21[&type="Human"]:0.03184389249825964)161[&type="NHP"]:0.0038295427190482845)162[&type="Human"]:0.044697233669751646)163[&type="NHP"]:0.006826933966228466)84[&type="NHP"]:0.011646828920500119,(22[&type="Human"]:0.10250178527034343)164[&type="NHP"]:0.004561824585516905)110[&type="NHP"]:0.0037452155658291297,((18[&type="Human"]:0.05116639748673962)157[&type="NHP"]:4.317310835637578E-4,(((((25[&type="NHP"]:0.01668421143450488,63[&type="NHP"]:2.458552701331551E-4)101[&type="NHP"]:0.006886434754265758)258[&type="Human"]:1.1496510944492E-4)259[&type="NHP"]:0.016766135565873752,((64[&type="NHP"]:0.025637174347140024)230[&type="Human"]:0.027202003410297326)231[&type="NHP"]:0.0013111992436662945)73[&type="NHP"]:0.010535805557156108,(58[&type="Human"]:0.026101012070331164)215[&type="NHP"]:0.033105718433213804)78[&type="NHP"]:0.01978865834078708)115[&type="NHP"]:0.009895628358270903)107[&type="NHP"]:0.013471906202015327,(23[&type="Human"]:0.06224733003544547)165[&type="NHP"]:0.004499155012844591)88[&type="NHP"]:0.009266058936811816,(((26[&type="NHP"]:0.014742809568419502,(30[&type="Human"]:0.003512976345471791)172[&type="NHP"]:0.05232572363399071)75[&type="NHP"]:0.012683724713099254,((34[&type="NHP"]:0.002831196803003394)177[&type="Human"]:0.11865069979226803)178[&type="NHP"]:0.0018350486451202963)77[&type="NHP"]:0.049694705609577505,(((35[&type="Human"]:0.04553217662328546)179[&type="NHP"]:1.0387778403009307E-5)180[&type="Human"]:0.04265441227014499)181[&type="NHP"]:0.005362619383634526)108[&type="NHP"]:0.009850208203662558)81[&type="NHP"]:0.017993452444054592,(((((19[&type="Human"]:0.11002050343366249)158[&type="NHP"]:8.3564721162388E-4,(29[&type="Human"]:0.06150001435600583)171[&type="NHP"]:0.016479423960537087)91[&type="NHP"]:0.0059269032353919116)250[&type="Human"]:0.015773776739498424)251[&type="NHP"]:0.014920667263353282,(((((24[&type="Human"]:0.009248654797090972)166[&type="NHP"]:0.018319708190067063)167[&type="Human"]:0.027644912908966535)168[&type="NHP"]:0.0409659760166885,(((56[&type="Human"]:0.09338827526237914)210[&type="NHP"]:1.877608009829279E-4)211[&type="Human"]:0.008185067279329161)212[&type="NHP"]:0.0026373266521940164)68[&type="NHP"]:0.0011215660104686997,(((((28[&type="Human"]:0.020543733635333516)170[&type="NHP"]:0.003202230321746935,(((33[&type="Human"]:0.0060432255442555705)174[&type="NHP"]:0.008246575754985441)175[&type="Human"]:0.02100801367184363)176[&type="NHP"]:0.004886505150367537)102[&type="NHP"]:0.006142629262955668,(62[&type="Human"]:0.10909109539966899)229[&type="NHP"]:2.4955261486836466E-4)76[&type="NHP"]:0.01461570470741258)242[&type="Human"]:0.012248605891688136)243[&type="NHP"]:0.002191749720459324)118[&type="NHP"]:0.025519145713804314)98[&type="NHP"]:0.004062745121041211)126[&type="NHP"]:0.047609214098411456)274[&type="Human"]:0.03632394417415574)275[&type="NHP"]:8.703521892411414E-5,((((((((27[&type="Human"]:0.04534947723039384)169[&type="NHP"]:0.0022276995357147777,41[&type="NHP"]:0.04757717676610862)83[&type="NHP"]:0.016422190968903405,((38[&type="Human"]:6.597159120267371E-4)182[&type="NHP"]:0.02955860554269335,(((52[&type="Human"]:0.01652614965061422)205[&type="NHP"]:0.010483682023846586)206[&type="Human"]:0.005143466939010077)207[&type="NHP"]:8.047488686065973E-4)128[&type="NHP"]:0.01460296408856282)124[&type="NHP"]:0.01798473507533277,(43[&type="Human"]:0.057677096386007765)187[&type="NHP"]:0.010608376287322696)93[&type="NHP"]:0.054724051314137656,((53[&type="NHP"]:0.005494049505104737)208[&type="Human"]:0.11848595099952064)209[&type="NHP"]:0.00724870156514229)80[&type="NHP"]:0.03828636365187471,(((((50[&type="Human"]:0.0011117395525024887)198[&type="NHP"]:5.465202421810478E-4)199[&type="Human"]:0.08073296127065027)200[&type="NHP"]:0.022312549959294325)201[&type="Human"]:0.012672197666006246)202[&type="NHP"]:0.02748156278433672)103[&type="NHP"]:0.011455239506661108,(((((45[&type="Human"]:0.07613272636530555)189[&type="NHP"]:4.4338823230438695E-4)190[&type="Human"]:0.004282338698680499)191[&type="NHP"]:0.011422216352129477)192[&type="Human"]:0.01721670020724203)193[&type="NHP"]:0.013938688797226817)114[&type="NHP"]:6.02478212843649E-4,(((39[&type="NHP"]:0.012802862375585422)183[&type="Human"]:0.18092779320637642)184[&type="NHP"]:0.00471550798684367,((((((((42[&type="NHP"]:0.026408013861675794)185[&type="Human"]:0.00799040620350383)186[&type="NHP"]:0.014677903067402631,((51[&type="NHP"]:0.035943809153220124)203[&type="Human"]:0.07501307150225792)204[&type="NHP"]:0.01483177124424806)87[&type="NHP"]:0.009079823184591829)244[&type="Human"]:0.034071364383220726)245[&type="NHP"]:0.0029246088129200043,(((((44[&type="Human"]:0.020773357406806803)188[&type="NHP"]:0.004027721805302753,(46[&type="Human"]:0.0015649195574767294)194[&type="NHP"]:0.004058077462903709)79[&type="NHP"]:4.0977452264068237E-4,(47[&type="Human"]:0.013972462349736592)195[&type="NHP"]:2.7948727558407827E-4)117[&type="NHP"]:0.0022244077873415646,(48[&type="Human"]:0.04613293297287019)196[&type="NHP"]:4.8041074117810556E-4)90[&type="NHP"]:0.011281859976524755,(49[&type="Human"]:0.05014865266612112)197[&type="NHP"]:0.005006824996867165)120[&type="NHP"]:0.026298011713312197)113[&type="NHP"]:0.037153586427938035)268[&type="Human"]:4.158390729443462E-4)269[&type="NHP"]:0.024628728143565315)100[&type="NHP"]:0.029701962338099408)125[&type="NHP"]:0.03480957086318626)89[&type="NHP"]:0.007149102662396878)246[&type="Human"]:0.005505322149961078)247[&type="NHP"]:0.003286269377504647)248[&type="Human"]:0.01074076694870818)249[&type="NHP"]:0.13054891132129626,((((((((((((((16[&type="NHP"]:0.001892661437204679,((((55[&type="NHP"]:0.019825079128739487,60[&type="NHP"]:0.03626343529311121)74[&type="NHP"]:0.002760713005853871,65[&type="NHP"]:0.011626888024936416)70[&type="NHP"]:2.2032656832909892E-4)238[&type="Human"]:0.0018004451341366023)239[&type="NHP"]:0.004683357874174288)116[&type="NHP"]:0.03246925270431211,(((32[&type="NHP"]:0.024819534627949336,37[&type="NHP"]:0.00838117846357761)99[&type="NHP"]:5.345064123943033E-4)256[&type="Human"]:0.08086899984377013)257[&type="NHP"]:0.0021114759971894714)69[&type="NHP"]:3.9295541351935803E-4,(((((((20[&type="NHP"]:7.785304332130205E-4)159[&type="Human"]:0.0041799192293132115)160[&type="NHP"]:0.007721481789588397,(36[&type="NHP"]:0.014237073069398837,40[&type="NHP"]:0.014237073069398837)82[&type="NHP"]:0.003922310437430576)67[&type="NHP"]:0.005259845767742022)234[&type="Human"]:0.0021015443700593828)235[&type="NHP"]:0.019046173215957807)236[&type="Human"]:0.04380637049264066)237[&type="NHP"]:0.006655524804578983)127[&type="NHP"]:0.0013216471253654216)276[&type="Human"]:0.10548084956522169)277[&type="NHP"]:0.022562337269087462)278[&type="Human"]:0.010276993051888339)279[&type="NHP"]:0.03662157306982228)280[&type="Human"]:0.07884755822876621)281[&type="NHP"]:2.0327805244857444E-5,((((((((((((61[&type="NHP"]:0.024978160490646467)217[&type="Human"]:0.04003653828620829)218[&type="NHP"]:0.016798437123140636)219[&type="Human"]:0.01869708395816294)220[&type="NHP"]:0.0021241932838698685)221[&type="Human"]:0.0035721896991624535)222[&type="NHP"]:0.02236585321565504)223[&type="Human"]:0.07571270863752244)224[&type="NHP"]:0.007171992259619064)225[&type="Human"]:0.06229775698573581)226[&type="NHP"]:0.03949296888060971)227[&type="Human"]:0.007878848400183103)228[&type="NHP"]:0.02629367102533131)111[&type="NHP"]:0.0047878209994483)262[&type="Human"]:0.022410841609085574)263[&type="NHP"]:0.001696422806369724)264[&type="Human"]:0.04870925686461802)265[&type="NHP"]:0.008861954841603792)129[&type="NHP"]:0.0;
+End;
