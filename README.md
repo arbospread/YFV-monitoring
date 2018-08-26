@@ -8,11 +8,19 @@ _The yellow fever virus (YFV) epidemic in Brazil is the largest in decades. The 
 
 ## Contents
 1. SurveillanceData
+	- Case counts for YFV in humans and non-human primates, species counts for cases in non-human primates and Chikungunya case counts used in the analyses.
 2. Alignments
+	- The sequence datasets used in the analyses and maximum-likelihood trees. 
 3. Coalescent
+	- BEAST XML and tree files for the standard Skygrid and the Skygrid with covariates analyses.
 4. ContinuousModelSelection
+	- BEAST XML files for the continuous phylogeography analysis.
 5. ContinuousModels
+	- Input and output files for Seraphim analyses.
 6. StructuredCoalescent
-7. FiguresTables
+	- BEAST2 XML and tree files for the structured coalescent analysis.
+7. MolecularClock
+	- The tree reported in figure S10. 
+8. FiguresTables
 	- The figures and tables reported in the manuscript. 
 
